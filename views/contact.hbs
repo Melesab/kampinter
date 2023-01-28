@@ -16,14 +16,15 @@
 <h3>You can contact us here</h3>
 <div class="float-container">
   <div class="float-child" style="padding-left: 10vw;">
-    <form action = "mailto:byemeinter@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+    <form action = "mailto:byemeinter@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
       <label for="fname">First Name</label>
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
       <label for="lname" >Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      <label for="Email">Email*</label>
-      <input type="email" id="email" name="email" required placeholder="Your Email..">
+      <label for="emails">Email*</label><br>
+      <input type="email" id="email" name="email" multiple required placeholder="Your Email..">
+      
       <br>
       <label for="country">Country</label>
       <input type="text" id="country" name="country" placeholder="Enter Nationality">
