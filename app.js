@@ -123,8 +123,8 @@ app.get("/logout", (req, res)=> {
 })
 app.use('/images', express.static(path.join(__dirname, 'images')))
 
-console.log("Browse website on localhost:22")
-app.listen(22)
+console.log("Browse website on localhost:8080")
+app.listen(8080)
 
 
 
